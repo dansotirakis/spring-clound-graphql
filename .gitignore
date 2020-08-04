@@ -1,0 +1,14 @@
+
+.idea/
+
+config/target/
+
+config/config-server.iml
+
+gateway/target/
+
+gateway/gateway-service.iml
+
+registry/target/
+
+registry/registry-service.iml

@@ -1,0 +1,20 @@
+eureka:
+  instance:
+    hostname: gateway-service
+
+server:
+  port: 2002
+
+ribbon:
+  ReadTimeout: 20000
+  ConnectTimeout: 20000
+
+#    example of route using service discovery
+#zuul:
+#  ignoredServices: "*"
+#  routes:
+#    auth-service:
+#      path: /auth/**
+#      serviceId: auth-service
+#      stripPrefix: false
+#      sensitiveHeaders:

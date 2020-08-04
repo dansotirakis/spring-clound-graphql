@@ -1,0 +1,8 @@
+server:
+  port: 2001
+
+eureka:
+  datacenter: secondary
+  environment: dev
+  instance:
+    hostname: registry-service

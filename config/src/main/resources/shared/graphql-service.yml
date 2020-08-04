@@ -1,0 +1,8 @@
+server:
+  port: 2003
+
+eureka:
+  datacenter: secondary
+  environment: dev
+  instance:
+    hostname: graphql-service
